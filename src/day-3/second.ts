@@ -24,7 +24,7 @@ function calculateMuls(str: string) {
 export function second() {
   const stop = "don't()"
   const start = 'do()'
-  let oneLine = lines.join('')
+  const oneLine = lines.join('')
 
   const [starting, ...donts] = oneLine.split(stop)
 
